@@ -5,6 +5,11 @@ on:
     branches:
       - main
 
+# Allow one concurrent deployment
+concurrency:
+  group: "build-and-push-image"
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
