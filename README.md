@@ -24,3 +24,8 @@ Run the image locally
 ```shell
 docker run <tag> -p 8081:80 --name localnginx -d
 ```
+
+# GH Actions Workflow
+
+The GH Action generates the static files, packages them as a nginx image and pushes the image to the GitHub Container
+Registry (https://ghcr.io)
