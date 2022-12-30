@@ -1,5 +1,7 @@
 # Simple Docs App
 
+This is the application repo for the [sample-docs-deployment](https://github.com/ric03/sample-docs-deployment).
+
 This app uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
 
 # Build the app
