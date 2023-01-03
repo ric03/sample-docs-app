@@ -2,9 +2,16 @@
 
 This is the application repo for the [sample-docs-deployment](https://github.com/ric03/sample-docs-deployment).
 
-This app uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
+This repo is part of an ArgoCD experiment, see https://github.com/ric03/sample-docs-argocd
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ric03/sample-docs-argocd/raw/main/docs/component-overview-transparent-darkmode.png">
+  <img alt="Component Overview" src="https://github.com/ric03/sample-docs-argocd/raw/main/docs/component-overview-transparent.png">
+</picture>
 
 # Build the app
+
+This app uses [Material for MkDocs](https://squidfunk.github.io/mkdocs-material)
 
 ```shell
 python -m pip install mkdocs-material
